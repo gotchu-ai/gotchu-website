@@ -48,7 +48,7 @@ const WhatIsGotchu = () => {
         initial={{ opacity: 0, y: 35 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ delay: 0.8, duration: 1.1, ease: 'easeOut' }}
-        className='mt-6 text-[24px] text-[#0000008C]'
+        className='mt-6 text-[18px] md:text-[24px] text-[#0000008C]'
       >
         Connect, manage, and analyze Facebook, Instagram, YouTube, TikTok, and
         more — all from one place. Save hours each week and boost engagement

@@ -29,12 +29,12 @@ const itemVariants: Variants = {
 const CHeader = () => {
   return (
     <motion.header
-      className='flex justify-center items-center px-16 h-[83px] fixed left-0 right-0 top-0 z-[999] mb backdrop-blur-md bg-transparent '
+      className='flex justify-center items-center  px-16 h-[122px] xl:h-[83px] fixed left-0 right-0 top-0 z-[999] mb backdrop-blur-md bg-transparent '
       variants={containerVariants}
       initial='hidden'
       animate='show'
     >
-      <div className='container mx-auto items-center flex justify-between'>
+      <div className='container mx-auto items-center flex gap-4 xl:gap-0 flex-col lg:flex-row justify-between'>
         {/* Logo */}
         <motion.div
           className='flex items-center justify-center gap-2 cursor-pointer'

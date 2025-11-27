@@ -12,3 +12,9 @@
   /* Use Inter as the default font */
   --font-sans: var(--font-inter);
 }
+
+/* body {
+  width: 100svw;
+  overflow: hidden;
+  margin: 0;
+} */

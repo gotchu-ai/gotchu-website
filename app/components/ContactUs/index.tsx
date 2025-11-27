@@ -13,17 +13,17 @@ const ContactUs = () => {
   return (
     <div
       ref={ref}
-      className='container mx-auto text-center py-12 px-8 relative flex items-center gap-8'
+      className='container mx-auto text-center py-8 lg:py-12 px-8 relative flex flex-col lg:flex-row items-center gap-8'
     >
       {/* LEFT CONTENT */}
       <motion.div
         initial={{ opacity: 0, x: -40 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ delay: 0.3, duration: 0.8, ease: 'easeOut' }}
-        className='flex flex-col items-start w-[60%]'
+        className='flex flex-col lg:items-start lg:w-[60%] text-center'
       >
-        <h3 className='text-[45px]'>Contact Us</h3>
-        <p className='text-[#0000008C] mt-6 text-start text-[24px] font-medium'>
+        <h3 className=' text-[28px] md:text-[45px]'>Contact Us</h3>
+        <p className='text-[#0000008C] mt-6 lg:text-start text-[18px] lg:text-[24px] font-medium'>
           Need help or have questions? Our team is here to support your setup,
           guide your growth, and make sure your community runs smoothly. Reach
           out anytime.
@@ -42,7 +42,7 @@ const ContactUs = () => {
         initial={{ opacity: 0, x: 40 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ delay: 0.6, duration: 0.8, ease: 'easeOut' }}
-        className='w-[40%] flex justify-center'
+        className='lg:w-[40%] flex justify-center'
       >
         <Image alt='contact' src='/contact.png' width={400} height={400} />
       </motion.div>

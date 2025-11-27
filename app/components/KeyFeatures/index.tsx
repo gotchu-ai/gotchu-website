@@ -20,7 +20,7 @@ const KeyFeatures = () => {
   ];
 
   return (
-    <div ref={ref} className='container mx-auto text-center py-12 px-8 relative'>
+    <div ref={ref} className='container mx-auto w-[100svw] overflow-hidden text-center py-12 px-8 relative'>
       {/* Title */}
       <motion.h3
         initial={{ opacity: 0, y: 20 }}

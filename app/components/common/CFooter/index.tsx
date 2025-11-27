@@ -38,11 +38,11 @@ const CFooter = () => {
       initial="hidden"
       animate="show"
     >
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-0 ">
 
         {/* Left Section */}
         <motion.div
-          className="flex items-center justify-center gap-8"
+          className="flex items-center flex-col lg:flex-row justify-center lg:gap-8 gap-4"
           variants={containerVariants}
         >
           {/* Logo */}
