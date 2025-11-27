@@ -27,7 +27,7 @@ const Centralize = () => {
 
         <div className='relative lg:hidden  mt-[30px]'>
         <img
-          src='/imagecontainer.png'
+          src='/Imagecontainer.png'
           alt='contact'
         />
         <img

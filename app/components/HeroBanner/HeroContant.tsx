@@ -21,7 +21,7 @@ const HeroContant = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 1, ease: 'easeOut' }}
-        className='relative text-[#636363] text-[16px] md:text-[18px] max-w-[628px] mt-7 mx-auto'
+        className='relative text-[#636363] text-[16px] px-4 md:text-[18px] max-w-[628px] mt-7 mx-auto'
       >
         Deliver memorable customer experiences. Create, publish, and measure
         every interaction from one effortless dashboard
