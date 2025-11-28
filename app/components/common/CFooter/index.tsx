@@ -38,7 +38,7 @@ const CFooter = () => {
       initial="hidden"
       animate="show"
     >
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-0 ">
+      <div className="container mx-auto px-10 flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-0 ">
 
         {/* Left Section */}
         <motion.div

@@ -13,7 +13,7 @@ const logos = [
 
 const TrustedBy = () => {
   return (
-    <div className="container mx-auto py-12 mt-[60px] mb-[50px] px-8 text-center select-none">
+    <div className="container mx-auto py-12 mt-[60px] xl:mt-[250px] mb-[50px] px-8 text-center select-none">
       <p className="text-[#0000008C] mt-6 text-[24px] font-medium">GotchuAI is</p>
       <h3 className="text-[35px] font-semibold text-black mt-2.5">Trusted by</h3>
 

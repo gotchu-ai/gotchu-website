@@ -16,7 +16,7 @@ const HeroBanner = () => {
 
   return (
     <section
-      className='relative min-h-[589px]   overflow-hidden flex items-start pt-[120px] justify-center mt-[40px] xl:mt-[100px]'
+      className='relative min-h-[589px]   overflow-hidden flex items-start pt-[120px] justify-center mt-[40px] lg:mt-[100px]'
       onMouseMove={handleMouseMove}
     >
       {/* Background Video */}
@@ -94,7 +94,7 @@ const HeroBanner = () => {
         return (
           <motion.div
             key={i}
-            className={`absolute hidden xl:block ${top} ${left ?? ''} ${right ?? ''}`}
+            className={`absolute hidden lg:block ${top} ${left ?? ''} ${right ?? ''}`}
             initial={{ opacity: 0, scale: 0.5 }} // initial load animation
             animate={{ opacity: 1, scale: 1 }} // load complete
             transition={{ duration: 0.5, delay: i * 0.1 }}
@@ -110,14 +110,14 @@ const HeroBanner = () => {
         width={500}
         height={500}
         src={'/hero/line.png'}
-        className='absolute hidden md:block bottom-[60px] left-[2%] z-30'
+        className='absolute hidden xl:block bottom-[60px] left-[2%] z-30'
       />
       <Image
         alt='line'
         width={500}
         height={500}
         src={'/hero/line.png'}
-        className='absolute hidden md:block bottom-[150px] left-[10%] z-30'
+        className='absolute hidden xl:block bottom-[150px] left-[10%] z-30'
       />
 
       <Image
@@ -125,14 +125,14 @@ const HeroBanner = () => {
         width={500}
         height={500}
         src={'/hero/lineright.png'}
-        className='absolute hidden md:block bottom-[60px] right-[2%] z-30'
+        className='absolute hidden xl:block bottom-[60px] right-[2%] z-30'
       />
       <Image
         alt='line'
         width={500}
         height={500}
         src={'/hero/lineright.png'}
-        className='absolute hidden md:block bottom-[150px] right-[10%] z-30'
+        className='absolute hidden xl:block bottom-[150px] right-[10%] z-30'
       />
     </section>
   );
