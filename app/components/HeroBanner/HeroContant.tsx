@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const HeroContant = () => {
   return (
@@ -71,16 +72,18 @@ const HeroContant = () => {
           }}
         />
 
-        <motion.button
-          className='relative z-10 w-[236px] h-[50px] bg-[#6615F2] rounded-[10px] text-[18px] text-white font-medium cursor-pointer'
-          whileHover={{
-            scale: 1.02,
-            boxShadow: '0 0 20px rgba(199,172,255,0.7)',
-          }}
-          transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-        >
-          Join Now!
-        </motion.button>
+        <Link href='https://www.facebook.com/gotchucloud' target='_blank'>
+          <motion.button
+            className='relative z-10 w-[236px] h-[50px] bg-[#6615F2] rounded-[10px] text-[18px] text-white font-medium cursor-pointer'
+            whileHover={{
+              scale: 1.02,
+              boxShadow: '0 0 20px rgba(199,172,255,0.7)',
+            }}
+            transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+          >
+            Join Now!
+          </motion.button>
+        </Link>
       </motion.div>
 
       {/* Image */}

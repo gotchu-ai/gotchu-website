@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Centralize = () => {
   return (
@@ -20,9 +21,11 @@ const Centralize = () => {
                 View Features
               </button>
 
-              <button className='w-full max-w-[297px] md:w-[170px] rounded-xl border-2 border-[#00000026] bg-white px-6 py-3 text-black'>
+              <Link href="https://www.facebook.com/gotchucloud" target="_blank">
+              <button className='w-full max-w-[297px] md:w-[170px] cursor-pointer rounded-xl border-2 border-[#00000026] bg-white px-6 py-3 text-black'>
                 Contact Us
               </button>
+              </Link>
           </div>
         </div>
 

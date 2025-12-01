@@ -70,7 +70,7 @@ const CFooter = () => {
           </motion.div>
 
           {/* Footer Nav */}
-          <motion.ul
+          {/* <motion.ul
             className="flex items-center justify-center gap-8 text-[16px]"
             variants={containerVariants}
           >
@@ -92,7 +92,7 @@ const CFooter = () => {
                 {item}
               </motion.li>
             ))}
-          </motion.ul>
+          </motion.ul> */}
         </motion.div>
 
         {/* Right Section (Social Icons) */}

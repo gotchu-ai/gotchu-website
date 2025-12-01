@@ -1,6 +1,7 @@
 'use client';
 import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useRef } from 'react';
 
 const ContactUs = () => {
@@ -28,13 +29,15 @@ const ContactUs = () => {
           guide your growth, and make sure your community runs smoothly. Reach
           out anytime.
         </p>
+        <Link href="https://www.facebook.com/gotchucloud"  target="_blank">
         <motion.button
           whileHover={{ scale: 1.05 }}
           transition={{ type: 'spring', stiffness: 250, damping: 18 }}
-          className='bg-[#6615F2] px-6 py-3 rounded-xl text-white mt-6'
+          className='bg-[#6615F2] px-6 py-3 cursor-pointer rounded-xl text-white mt-6'
         >
           Contact Us
         </motion.button>
+        </Link>
       </motion.div>
 
       {/* RIGHT IMAGE */}

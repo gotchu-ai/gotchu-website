@@ -18,8 +18,8 @@ export default function Home() {
       <KeyFeatures />
       <Centralize />
       <RoleBased />
-      <TrustedBy/>
-      <KeyFeatures />
+      {/* <TrustedBy/>
+      <KeyFeatures /> */}
       <ContactUs />
       <CFooter />
     </div>

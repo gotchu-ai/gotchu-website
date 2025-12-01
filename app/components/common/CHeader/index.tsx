@@ -55,7 +55,7 @@ const CHeader = () => {
         </motion.div>
 
         {/* Navigation */}
-        <motion.ul
+        {/* <motion.ul
           className='flex items-center gap-6'
           variants={containerVariants}
         >
@@ -77,7 +77,7 @@ const CHeader = () => {
               {item}
             </motion.li>
           ))}
-        </motion.ul>
+        </motion.ul> */}
       </div>
     </motion.header>
   );
