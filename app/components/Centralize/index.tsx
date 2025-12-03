@@ -17,15 +17,16 @@ const Centralize = () => {
             engagement with consistency.
           </p>
           <div className='flex flex-col items-center lg:gap-4 lg:flex-row lg:mt-8'>
-          <button className='w-full max-w-[297px] md:w-[170px] rounded-xl bg-[#6615F2] px-6 py-3 text-white'>
+            <div className='flex flex-col items-center gap-4 mt-6 lg:flex-row lg:justify-end lg:mt-0'>
+              <button className='w-full max-w-[297px] md:w-[170px] rounded-xl bg-[#6615F2] px-6 py-3 text-white'>
                 View Features
               </button>
-
               <Link href="https://www.facebook.com/gotchucloud" target="_blank">
               <button className='w-full max-w-[297px] md:w-[170px] cursor-pointer rounded-xl border-2 border-[#00000026] bg-white px-6 py-3 text-black'>
                 Contact Us
               </button>
               </Link>
+            </div>
           </div>
         </div>
 
